@@ -1,0 +1,23 @@
+---
+title: "Team Registration & Proposal"
+date: "11/4/2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Group members (names and unis)
+
+## Tentative Project Title
+
+## Motivation for this Project
+
+## Intended Final Products
+
+## Anticipated Data Sources
+
+## Planned Analyses/Visualizations/Coding Challenges
+
+## Planned Timeline
