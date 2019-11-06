@@ -4,8 +4,8 @@ Team Registration & Proposal
 
 ## Group members (names and unis)
 
-Alexis Colangelo, avc2129 Dania Jafar, dj25 Si Li, sl4657 Kristal
-Quispe, kq2127
+Alexis Colangelo, avc2129; Dania Jafar, dj2536; Si Li, sl4657; Kristal
+Quispe, kq2127; Barik Rajpal, bsr2136
 
 ## Tentative Project Title
 
