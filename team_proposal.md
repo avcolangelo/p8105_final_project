@@ -19,7 +19,7 @@ City.
 
 ## Intended Final Products
 
-  - An interactive map of central park of squirrel based on certain
+  - An interactive map of central park of squirrels based on certain
     characteristics
   - Squirrel density map of where squirrels are most concentrated
   - Frequency chart of common squirrel behaviors
@@ -30,6 +30,11 @@ We will use the 2018 Central Park Squirrel Data from NYC Open Data.
 
 ## Planned Analyses/Visualizations/Coding Challenges
 
+  - Planned visualizations include an interactive color coded map of
+    squirrels based on certain characteristics and a squirrel density
+    map, as well as a reader friendly table \*Planned analyses include
+    frequencies and possibly a linear regression depending on what looks
+    interesting in the data
   - Coding challenges: deciding how to approach missing data which
     squirrels to exclude for missing data
 
