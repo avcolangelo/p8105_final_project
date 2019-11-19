@@ -27,7 +27,10 @@ vary:
 
   - Initial questions: What questions are you trying to answer? How did
     these questions evolve over the course of the project? What new
-    questions did you consider in the course of your analysis?
+    questions did you consider in the course of your analysis?:
+
+–probability of a certain squirrel in area; visualize this
+probability/heat map –regression:
 
   - Data: Source, scraping method, cleaning, etc.
 
