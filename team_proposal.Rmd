@@ -44,3 +44,5 @@ We will use the 2018 Central Park Squirrel Data from NYC Open Data.
 * Finish and address any last minute issues: December 2-5
 * Report, Webpage, and Screencast due: Thursday, December 5
 * Peer assessment: Thursday, December 5
+
+one change
