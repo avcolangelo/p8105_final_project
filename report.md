@@ -29,8 +29,10 @@ vary:
     these questions evolve over the course of the project? What new
     questions did you consider in the course of your analysis?:
 
-–probability of a certain squirrel in area; visualize this
-probability/heat map –regression:
+– probability of a certain squirrel in area; visualize this
+probability/heat map – regression question: number of squirrels seen
+eating as predicted by foraging – Where are squirrels are most
+concentrated – What are the most common squirrel behaviors
 
   - Data: Source, scraping method, cleaning, etc.
 
