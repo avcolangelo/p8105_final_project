@@ -2,6 +2,87 @@ Report
 ================
 11/19/2019
 
+Start of code (place holder until we have
+    page)
+
+``` r
+library(tidyverse)
+```
+
+    ## -- Attaching packages -------------------------------------- tidyverse 1.2.1 --
+
+    ## v ggplot2 3.2.1     v purrr   0.3.2
+    ## v tibble  2.1.3     v dplyr   0.8.3
+    ## v tidyr   1.0.0     v stringr 1.4.0
+    ## v readr   1.3.1     v forcats 0.4.0
+
+    ## -- Conflicts ----------------------------------------- tidyverse_conflicts() --
+    ## x dplyr::filter() masks stats::filter()
+    ## x dplyr::lag()    masks stats::lag()
+
+``` r
+library(viridis)
+```
+
+    ## Loading required package: viridisLite
+
+``` r
+library(readxl)
+library(plotly)
+```
+
+    ## 
+    ## Attaching package: 'plotly'
+
+    ## The following object is masked from 'package:ggplot2':
+    ## 
+    ##     last_plot
+
+    ## The following object is masked from 'package:stats':
+    ## 
+    ##     filter
+
+    ## The following object is masked from 'package:graphics':
+    ## 
+    ##     layout
+
+``` r
+df = 
+  read_csv("./data/squirrel_data.csv") %>% 
+  janitor::clean_names() %>% 
+  drop_na() %>% 
+  plot_ly(
+  x = ~x, y = ~y, type = "scatter", mode = "markers")
+```
+
+    ## Parsed with column specification:
+    ## cols(
+    ##   .default = col_character(),
+    ##   X = col_double(),
+    ##   Y = col_double(),
+    ##   Date = col_double(),
+    ##   `Hectare Squirrel Number` = col_double(),
+    ##   Running = col_logical(),
+    ##   Chasing = col_logical(),
+    ##   Climbing = col_logical(),
+    ##   Eating = col_logical(),
+    ##   Foraging = col_logical(),
+    ##   Kuks = col_logical(),
+    ##   Quaas = col_logical(),
+    ##   Moans = col_logical(),
+    ##   `Tail flags` = col_logical(),
+    ##   `Tail twitches` = col_logical(),
+    ##   Approaches = col_logical(),
+    ##   Indifferent = col_logical(),
+    ##   `Runs from` = col_logical(),
+    ##   `Zip Codes` = col_number(),
+    ##   `Community Districts` = col_double(),
+    ##   `Borough Boundaries` = col_double()
+    ##   # ... with 2 more columns
+    ## )
+
+    ## See spec(...) for full column specifications.
+
 ## Group members (names and unis)
 
 Alexis Colangelo, avc2129; Dania Jafar, dj2536; Si Li, sl4657; Kristal

@@ -8,6 +8,20 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Start of code (place holder until we have page)
+```{r}
+library(tidyverse)
+library(viridis)
+library(readxl)
+library(plotly)
+
+df = 
+  read_csv("./data/squirrel_data.csv") %>% 
+  janitor::clean_names() %>% 
+  drop_na() %>% 
+  plot_ly(
+  x = ~x, y = ~y, type = "scatter", mode = "markers")
+```
 ## Group members (names and unis)
 Alexis Colangelo, avc2129;
 Dania Jafar, dj2536;
